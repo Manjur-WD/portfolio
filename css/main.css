@@ -156,7 +156,13 @@ input:focus {
 .head {
   font-size: 120px;
   font-weight: 600;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.big-name{
+  font-size: clamp(25px , 10vw + 2rem , 180px);
+  color: gainsboro;
 }
 
 .contact-section,
@@ -293,8 +299,8 @@ input:focus {
   position: absolute;
   background-color: white;
   inset: 0;
-  margin-top: 50px;
-  animation: typewriter 6s ease forwards;
+  /* margin-top: 50px; */
+  animation: typewriter 4s ease forwards;
 }
 
 .hero-content h1 span {

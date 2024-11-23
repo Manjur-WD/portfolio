@@ -154,6 +154,9 @@
   }
 }
 @media (max-width: 768px) {
+  .actual-name::after{
+    margin-top: 0;
+  }
   .contact-info {
     margin-bottom: 25px;
   }
